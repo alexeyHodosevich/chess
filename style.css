@@ -1,0 +1,106 @@
+
+//Последний коммент для проверки на gitHub
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+.black, .white, .empty, .count {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.black, .white, .empty {
+    width: 50px;
+    height: 50px;
+}
+
+.black {
+    background-color: gray;
+    font-size: 0;
+}
+
+.white {
+    background-color: white;
+    font-size: 0;
+}
+
+.empty {
+    background-color: transparent;
+    font-style: italic;
+    color: gray;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.count {
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.chosen {
+    outline: 3px solid rgb(250, 229, 5);
+    outline-offset: -3px;
+}
+
+.bl, .bg, .bs, .bf, .bk, .bp,
+.wl, .wg, .ws, .wf, .wk, .wp {
+    background-image: url("../img/chess.png");
+    background-size: 390px;
+    background-repeat: no-repeat;
+}
+
+.bl {
+    background-position: -140px -3px;
+}
+
+.bg {
+    background-position: -275px -3px;
+}
+
+.bs {
+    background-position: -207px -3px;
+}
+
+.bf {
+    background-position: -71px -3px;
+}
+
+.bk {
+    background-position: -3px -3px;
+}
+
+.bp {
+    background-position: -343px -3px;
+}
+
+.wl {
+    background-position: -140px -61px;
+}
+
+.wg {
+    background-position: -275px -61px;
+}
+
+.ws {
+    background-position: -207px -61px;
+}
+
+.wf {
+    background-position: -71px -61px;
+}
+
+.wk {
+    background-position: -3px -61px;
+}
+
+.wp {
+    background-position: -343px -61px;
+}
