@@ -1,5 +1,7 @@
 //Проверка на Github
 //Еще один коммент для проверки
+
+//Comment to check conflict
 function Board(selector) {
 
     //Создаем шахматную доску (с картинками)
